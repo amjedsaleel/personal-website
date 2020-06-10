@@ -29,6 +29,11 @@ header {
   z-index: 1;  
 }
 
+.navbar-fixed-top.scrolled {
+  background-color: #fff !important;
+  transition: background-color 200ms linear;
+}
+
 header h3 {
   font-size: 20px;
   font-weight: 500;
