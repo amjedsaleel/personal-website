@@ -24,6 +24,7 @@ body, html {
 
 header {
   position: fixed;
+  top: 0em;
   width: 100%;
   top: 1em;
   z-index: 1;
@@ -65,3 +66,28 @@ header a {
   border-color: white;
 }
 /* home section end */
+
+/* about section */
+.profile {
+  width: 400px;
+  height: 400px;
+}
+
+#about {
+  padding-top: 4em;
+}
+
+.about-heading {
+  display: flex;
+  justify-content: center;
+  font-size: xxx-large;
+}
+
+.about-content {
+  margin-top: 4em;
+}
+
+span {
+  color: blue;
+}
+/* about section end */
