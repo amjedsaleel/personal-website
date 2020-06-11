@@ -7,76 +7,72 @@
   <!-- <link rel="icon" href="photos/70373581_2253197298142972_674199879606636195_n.jpg" type="image/gif" sizes="16x16">  -->
   <title>Amjed</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
 </head>
-
 <body>
-  <section class="banner" id="home-screen">
-    <header class="container-fluid">
-      <div class="row text-white">
-        <div class="col-md-6 col-7 p-3 pl-5">
-          <h3>Amjed Saleel K</h3>
+  <header class=" container-fluid position-fixed">
+    <div class="row">
+      <nav id="navbar" class=" col-12 pt-3 navbar navbar-expand-lg navbar-dark ">
+        
+        <button id="nav-trigger"class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link pr-5 text-white" href="#" onclick="hidemenu()">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link pr-5 text-white" href="#photos">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link pr-5 text-white" href="#follow" >Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link pr-5 text-white" href="#contact" >Contact</a>
+            </li>
+          </ul>
         </div>
-        <div class="col-md-6 col-5 my-auto">
-          <nav class="navbar navbar-expand-lg navbar-light">
-            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
-              data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-              aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                  <a class="nav-link text-white" href="#home-section">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-white" href="#education-section">About</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-white" href="#skills-section">Skills</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-white" href="#contact-section">Contact me</a>
-                </li>
-              </ul>
-            </div>
-          </nav>
-        </div>
-      </div>
-    </header>
+      </nav>
+    </div>
+</header>
+
+<section id="bgimgsec" class="h-100 container-fluid row ">
+  <div class=" home col-12">
+    
     <div class="banner-text col-12" id="home">
       <h3>Hello, I'm</h3>
       <h1 class="full-name">Amjed Saleel K</h1>
-      <button class="hire-me-button">Hire me</button>
-    </div>
-  </section>
- 
-  <section  id="about">
+      <button class="hire-me-button ">Hire me</button>
+    </div>  
+  </div>
+</section>
+
+<section  id="about">
     <div class="container">
-      <h3 class="about-heading">About</h3>
-      
+      <h3 class="about-heading">About</h3>     
       <div class="row about-content">
           <div class="col-12 col-md-5">
-            <img src="profile.jpeg" class=".img-rounded img-responsive profile">
+            <img src="./images/profile.jpeg" class=".img-rounded img-responsive profile">
           </div>
           <div class="col-12 col-md-7">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et blandit tellus. Sed eu nulla tempus magna elementum consectetur posuere sed nibh. Etiam vehicula lacus leo, eu ullamcorper tortor placerat nec. Sed fringilla, leo ac varius hendrerit, enim erat posuere nisl, eu tincidunt erat lorem sed nibh. Aenean ut metus risus. Vestibulum in gravida risus, nec molestie nulla. Proin tincidunt molestie posuere. Cras volutpat orci eu metus finibus accumsan. Sed risus dui, viverra id volutpat vitae, dapibus vitae eros. Aenean sit amet rutrum ex, ut convallis massa. Nunc felis arcu, pulvinar id urna euismod, aliquam dapibus ex. </p>
             <div class="col-12 col-md-12 d-flex justify-content-center">
               <p>Status: Student at <span>CAS Thamarassery</span></p>
-            </div>
-            
-          </div> 
-
-          
+            </div>          
+          </div>          
       </div>
     </div>
   </section>
 
+
+
+ 
+  
   
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
-
 </html>
