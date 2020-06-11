@@ -1,17 +1,25 @@
-body, html {
+body,
+html {
+  scroll-behavior: smooth;
   height: 100%;
+  width: 100%;
 }
 
-/* home section */
-.banner {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/unsplash-NuFUbftUu_s-unsplash.jpg");
-  height: 100vh;
+header {
   z-index: 1;
+}
+.home {
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/unsplash-NuFUbftUu_s-unsplash.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
-  }
+}
+#bgimgsec {
+  margin-right: 0;
+  margin-left: 0;
+  padding-right: 0;
+  padding-left: 0;
+}
 
 .banner-text {
   text-align: center;
@@ -20,38 +28,6 @@ body, html {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-}
-
-header {
-  background-color: rgb(23, 23, 23, 0.15);
-  position: fixed; 
-  width: 100%; 
-  z-index: 1;  
-}
-
-.navbar-fixed-top.scrolled {
-  background-color: #fff !important;
-  transition: background-color 200ms linear;
-}
-
-header h3 {
-  font-size: 20px;
-  font-weight: 500;
-}
-header a {
-  font-size: medium;
-  margin-left: 3em;
-  letter-spacing: 1px;
- 
-}
-
-.full-name {
-  font-weight: bold;
-  margin-bottom: 1em;
-}
-
-#home {
-  margin-top: 3em
 }
 
 .hire-me-button {
@@ -67,18 +43,22 @@ header a {
 .hire-me-button:hover {
   background-color: black;
   color: white;
-  border-color: white;
+  border-color: #808485;
+  
 }
-/* home section end */
+
+.full-name {
+  margin-bottom: 0.5em;
+}
 
 /* about section */
 .profile {
-  width: 400px;
-  height: 400px;
+  width: 75%;
+  height: 75%;
 }
 
 #about {
-  padding-top: 4em;
+  padding-top: 2em;
 }
 
 .about-heading {
@@ -88,7 +68,7 @@ header a {
 }
 
 .about-content {
-  margin-top: 4em;
+  margin-top: 2em;
 }
 
 span {
