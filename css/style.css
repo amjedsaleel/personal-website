@@ -5,6 +5,21 @@ html {
   width: 100%;
 }
 
+/* common style */
+h5 {
+  color: #2c73d2;;
+}
+
+p {
+  color: #816F95;
+}
+
+a {
+  text-decoration: none;
+}
+/* common style end */
+
+/* home section */
 header {
   z-index: 1;
 }
@@ -30,7 +45,7 @@ header {
   color: white;
 }
 
-.hire-me-button {
+.hire-me-button {  
   background-color: #ffff;
   width: 15em;
   height: 2.5em;
@@ -41,15 +56,18 @@ header {
 }
 
 .hire-me-button:hover {
+  
   background-color: black;
   color: white;
   border-color: #808485;
+  transition: background-color 0.5s ease-in;
   
 }
 
 .full-name {
   margin-bottom: 0.5em;
 }
+/* home section end */
 
 /* about section */
 .profile {
@@ -62,7 +80,30 @@ header {
 
 }
 
-  
+.image {
+  display: flex;
+  justify-content: center;
+}
+
+.phone-icon {
+  margin-top: 1em;  
+}
+
+.email-icon {
+  margin-top: 1em;
+}
+
+.home-icon {
+  margin-top: 1em;
+}
+
+.social-media {
+  margin-bottom: 1em;
+}
+
+.contact-details:hover {
+  color: #322B3D;
+}
 .section-heading {
   color: #26094A;
   display: flex;
@@ -74,12 +115,38 @@ header {
   margin-top: 2em;
 }
 
+.social-media {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.linkedin {
+  margin-right: 0.5em;
+  color: #212529;
+}
+
+.github {
+  margin-right: 0.5em;
+  color: #212529;
+}
+
+.instagram {
+  margin-right: 0.5em;
+  color: #212529;
+}
+
+.facebook {
+  margin-right: 0.5em;
+  color: #212529;
+}
+
 .linkedin:hover {
   color: #0073b0;
 }
 
 .github:hover {
-  color: #404040;
+  color: #404040;  
 }
 
 .instagram:hover {
@@ -87,24 +154,11 @@ header {
   background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
   background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
   background-clip: text;
-  -webkit-background-clip: text;  
+  -webkit-background-clip: text;
+  transition: background-color 0.5s ease-in;  
 }
 
 .facebook:hover {
-  color: #3b5998;
+  color: #3b5998;  
 }
 /* about section end */
-
-
-.testing {
-  height: auto;
-}
-
-h5 {
-  color: #2c73d2;;
-}
-
-p {
-  color: #816F95;
-}
-

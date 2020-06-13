@@ -12,9 +12,8 @@
   <link rel="stylesheet" type="text/css" href="./css/style.css">
   <link rel="stylesheet" type="text/css" href="./css/timeline.css">
 </head>
-
 <body>
-  <header class=" container-fluid position-fixed">
+  <header class=" container-fluid position-fixed bg-dark">
     <div class="row">
       <nav id="navbar" class=" col-12 pt-3 navbar navbar-expand-lg navbar-dark ">
 
@@ -25,16 +24,16 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link pr-5 text-white" href="#" onclick="hidemenu()">Home</a>
+              <a class="nav-link pr-5 text-white" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link pr-5 text-white" href="#photos">About</a>
+              <a class="nav-link pr-5 text-white" href="#">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link pr-5 text-white" href="#follow">Skills</a>
+              <a class="nav-link pr-5 text-white" href="#">Skills</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link pr-5 text-white" href="#contact">Contact</a>
+              <a class="nav-link pr-5 text-white" href="#">Contact</a>
             </li>
           </ul>
         </div>
@@ -57,18 +56,26 @@
     <div class="container bg-light">
       <h3 class="section-heading">About</h3>
       <div class="row section-content">
-        <div class="col-12 col-md-5">
+        <div class="col-12 col-md-5 image">
           <img src="./images/profile.jpeg" class=".img-rounded img-responsive profile">
         </div>
         <div class="col-12 col-md-7">
           <p>Hi I am Amjed Saleel K. An undergrad pursuing Bachelor's of Computer Science.I am a Algorithm Developer and
             python files of my hands, I also loves UI/UX that are simple rather than compact. I am interested in Ethical
             hacking and is Community member of EvilHoursX. I am able and young having years of expertise in the field
-            of Networking and Server Administration from my Higher Secondary Education. </p> 
-            <i class="fab fa-linkedin-in linkedin"></i>
-            <i class="fab fa-github github"></i>
-            <i class="fab fa-instagram instagram"></i>
-            <i class="fab fa-facebook-square facebook"></i>                                       
+            of Networking and Server Administration from my Higher Secondary Education. </p>
+          <i class="fas fa-phone phone-icon"></i>
+          <p class="contact-details">&nbsp;+91&nbsp;9495836716</p>
+          <i class="fas fa-envelope email-icon"></i>
+          <p class="contact-details">&nbsp;amjedsaleel@gmail.com</p>
+          <i class="fas fa-home home-icon"></i>
+          <p class="contact-details">&nbsp;Kozhikode</p>
+          <div class="social-media">
+            <a href="https://www.linkedin.com/in/amjedsaleelk"><i class="fab fa-linkedin-in fa-2x linkedin"></i></a>
+            <a href="https://github.com/amjedsaleel"><i class="fab fa-github fa-2x github"></i></a>
+            <a href="https://www.instagram.com/amjed_saleel"><i class="fab fa-instagram fa-2x instagram"></i></a>
+            <a href="https://www.facebook.com/amjed.saleel"><i class="fab fa-facebook-square fa-2x facebook"></i></a>
+          </div>
         </div>
       </div>
       <div class="row">
@@ -79,10 +86,10 @@
             <div class="col-2 text-center bottom d-inline-flex justify-content-center align-items-center">
               <div class="circle font-weight-bold">1</div>
             </div>
+
             <div class="col-6">
-              <h5>Higher secondary 2015-2016</h5>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor gravida aliquam. Morbi orci
-                urna, iaculis in ligula et, posuere interdum lectus.</p>
+              <h5>SSLC 2015-2016</h5>
+              <p>I am completed my high school education at GHSS Pannur</p>
             </div>
           </div>
           <!--path between 1-2-->
@@ -91,7 +98,7 @@
               <div class="corner top-right"></div>
             </div>
             <div class="col-8">
-              <hr/>
+              <hr />
             </div>
             <div class="col-2">
               <div class="corner left-bottom"></div>
@@ -100,9 +107,10 @@
           <!--second section-->
           <div class="row align-items-center justify-content-end how-it-works d-flex">
             <div class="col-6 text-right">
-              <h5>Higher secondary 2015-2016</h5>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor gravida aliquam. Morbi orci
-                urna, iaculis in ligula et, posuere interdum lectus.</p>
+              <a href="#">
+                <h5>Higher secondary 2016-2018</h5>
+              </a>
+              <p>I am completed my higher rec GVHSS Chathamangalam. I am selected computer Science</p>
             </div>
             <div class="col-2 text-center full d-inline-flex justify-content-center align-items-center">
               <div class="circle font-weight-bold">2</div>
@@ -126,20 +134,14 @@
               <div class="circle font-weight-bold">3</div>
             </div>
             <div class="col-6">
-              <h5>Higher secondary 2015-2016</h5>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor gravida aliquam. Morbi orci
-                urna, iaculis in ligula et, posuere interdum lectus.</p>
+              <h5>Degree student 2020...</h5>
+              <p> An undergrad pursuing Bachelor's of Computer Science student in College Applied Science Thamaressery.
             </div>
           </div>
         </div>
       </div>
     </div>
   </section>
-
-
-
-
-
 
 
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
@@ -151,7 +153,6 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
-   <script src="https://kit.fontawesome.com/2e3aa5d426.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/2e3aa5d426.js" crossorigin="anonymous"></script>
 </body>
-
 </html>
