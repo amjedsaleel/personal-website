@@ -74,8 +74,24 @@ header {
   margin-top: 2em;
 }
 
-span {
-  color: blue;
+.linkedin:hover {
+  color: #0073b0;
+}
+
+.github:hover {
+  color: #404040;
+}
+
+.instagram:hover {
+  color: transparent;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background-clip: text;
+  -webkit-background-clip: text;  
+}
+
+.facebook:hover {
+  color: #3b5998;
 }
 /* about section end */
 
@@ -83,3 +99,12 @@ span {
 .testing {
   height: auto;
 }
+
+h5 {
+  color: #2c73d2;;
+}
+
+p {
+  color: #816F95;
+}
+
