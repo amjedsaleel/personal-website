@@ -59,15 +59,18 @@ header {
 
 #about {
   padding-top: 2em;
+
 }
 
-.about-heading {
+  
+.section-heading {
+  color: #26094A;
   display: flex;
   justify-content: center;
   font-size: xxx-large;
 }
 
-.about-content {
+.section-content {
   margin-top: 2em;
 }
 
@@ -75,3 +78,8 @@ span {
   color: blue;
 }
 /* about section end */
+
+
+.testing {
+  height: auto;
+}
