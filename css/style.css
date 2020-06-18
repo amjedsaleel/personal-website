@@ -7,15 +7,26 @@ html {
 
 /* common style */
 h5 {
-  color: #2c73d2;;
+  color: #2c73d2;
 }
 
 p {
-  color: #816F95;
+  color: #816f95;
 }
 
 a {
   text-decoration: none;
+}
+
+.section-heading {
+  color: #26094a;
+  display: flex;
+  justify-content: center;
+  font-size: xxx-large;
+}
+
+.section-content {
+  margin-top: 2em;
 }
 /* common style end */
 
@@ -23,13 +34,20 @@ a {
 header {
   z-index: 1;
 }
+
+header.scrolled {
+  background-color: #343a40 !important;
+  transition: background-color 200ms ease-in-out;
+}
+
 .home {
-  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/unsplash-NuFUbftUu_s-unsplash.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/banner.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-#bgimgsec {
+#home {
   margin-right: 0;
   margin-left: 0;
   padding-right: 0;
@@ -45,7 +63,7 @@ header {
   color: white;
 }
 
-.hire-me-button {  
+.hire-me-button {
   background-color: #ffff;
   width: 15em;
   height: 2.5em;
@@ -56,12 +74,10 @@ header {
 }
 
 .hire-me-button:hover {
-  
   background-color: black;
   color: white;
   border-color: #808485;
   transition: background-color 0.5s ease-in;
-  
 }
 
 .full-name {
@@ -76,8 +92,7 @@ header {
 }
 
 #about {
-  padding-top: 2em;
-
+  padding-top: 4em;
 }
 
 .image {
@@ -86,7 +101,7 @@ header {
 }
 
 .phone-icon {
-  margin-top: 1em;  
+  margin-top: 1em;
 }
 
 .email-icon {
@@ -102,18 +117,9 @@ header {
 }
 
 .contact-details:hover {
-  color: #322B3D;
-}
-.section-heading {
-  color: #26094A;
-  display: flex;
-  justify-content: center;
-  font-size: xxx-large;
+  color: #322b3d;
 }
 
-.section-content {
-  margin-top: 2em;
-}
 
 .social-media {
   display: flex;
@@ -146,19 +152,33 @@ header {
 }
 
 .github:hover {
-  color: #404040;  
+  color: #404040;
 }
 
 .instagram:hover {
   color: transparent;
-  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-  background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  background: -webkit-radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
   background-clip: text;
   -webkit-background-clip: text;
-  transition: background-color 0.5s ease-in;  
+  transition: background-color 0.5s ease-in;
 }
 
 .facebook:hover {
-  color: #3b5998;  
+  color: #3b5998;
 }
 /* about section end */
