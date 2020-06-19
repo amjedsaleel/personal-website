@@ -26,13 +26,13 @@ a {
 }
 
 .section-content {
-  margin-top: 2em;
+  margin-top: 4em;
 }
 /* common style end */
 
 /* home section */
 header {
-  z-index: 1;
+  z-index: 3;
 }
 
 header.scrolled {
@@ -182,3 +182,25 @@ header.scrolled {
   color: #3b5998;
 }
 /* about section end */
+
+/* skills section */
+#skills {
+  padding-top: 4em;
+}
+
+.card {
+  width: 14em;
+  text-align: center; 
+  box-shadow:hsl(0, 0%, 80%) 0 0 16px;  
+}
+
+.card:hover {
+  transform: scale(1.1);
+  -webkit-transition: transform 0.5s ease-in-out
+}
+
+.second-row {
+  display: flex;
+  justify-content: center;
+}
+/* skills section end */
