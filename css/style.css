@@ -6,9 +6,6 @@ html {
 }
 
 /* common style */
-h5 {
-  color: #2c73d2;
-}
 
 p {
   color: #816f95;
@@ -181,6 +178,11 @@ header.scrolled {
 .facebook:hover {
   color: #3b5998;
 }
+
+.career-heading {
+  color: #2c73d2;
+}
+
 /* about section end */
 
 /* skills section */
@@ -189,18 +191,45 @@ header.scrolled {
 }
 
 .card {
-  width: 14em;
+  width: 11em;
   text-align: center; 
   box-shadow:hsl(0, 0%, 80%) 0 0 16px;  
 }
 
 .card:hover {
   transform: scale(1.1);
-  -webkit-transition: transform 0.5s ease-in-out
+  transition: transform 0.5s ease-in-out
 }
 
 .second-row {
   display: flex;
   justify-content: center;
-}
+} 
 /* skills section end */
+
+/* contact section */
+#contact {
+ margin-top: 4em;
+}
+
+textarea {
+  border: none;
+  resize: none;
+}
+
+label {
+  font-size: 1.25em;
+}
+
+#form-group-name {
+  height: 50px;
+}
+
+#form-group-email {
+  height: 50px;
+}
+
+
+
+
+/* contact section end */
