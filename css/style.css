@@ -3,6 +3,7 @@ html {
   scroll-behavior: smooth;
   height: 100%;
   width: 100%;
+ 
 }
 
 /* common style */
@@ -134,49 +135,12 @@ header.scrolled {
   color: #212529;
 }
 
-.instagram {
-  margin-right: 0.5em;
-  color: #212529;
-}
-
-.facebook {
-  margin-right: 0.5em;
-  color: #212529;
-}
-
 .linkedin:hover {
   color: #0073b0;
 }
 
 .github:hover {
   color: #404040;
-}
-
-.instagram:hover {
-  color: transparent;
-  background: radial-gradient(
-    circle at 30% 107%,
-    #fdf497 0%,
-    #fdf497 5%,
-    #fd5949 45%,
-    #d6249f 60%,
-    #285aeb 90%
-  );
-  background: -webkit-radial-gradient(
-    circle at 30% 107%,
-    #fdf497 0%,
-    #fdf497 5%,
-    #fd5949 45%,
-    #d6249f 60%,
-    #285aeb 90%
-  );
-  background-clip: text;
-  -webkit-background-clip: text;
-  transition: background-color 0.5s ease-in;
-}
-
-.facebook:hover {
-  color: #3b5998;
 }
 
 .career-heading {
@@ -219,6 +183,7 @@ textarea {
 
 label {
   font-size: 1.25em;
+  color: #26094a;
 }
 
 #form-group-name {
@@ -229,7 +194,66 @@ label {
   height: 50px;
 }
 
-
-
-
+.submit-btn {
+  color: #26094a;
+  border: 1px solid #26094a;
+  font-size: 1.25em;
+}
 /* contact section end */
+
+/* footer section */
+footer {
+  margin: 0px;
+  font-size: 0.953em; 
+  color: #ffff;
+ }
+
+
+.instagram {
+  margin-right: 0.5em;
+  color: #ffff;
+}
+
+.instagram:hover {
+  color: transparent;
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  background: -webkit-radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  transition: background-color 0.5s ease-in;
+}
+
+.facebook {
+  margin-right: 0.5em;
+  color: #ffff;
+  
+}
+
+.facebook:hover {
+  color: #3b5998;
+}
+
+footer span {
+  font-weight: bold;
+ 
+}
+
+footer h6 {
+    font-size: 15px;
+  }
+
+/* footer section end */
