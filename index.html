@@ -33,7 +33,7 @@
               <a class="nav-link pr-5 text-white" href="#skills">Skills</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link pr-5 text-white" href="#">Contact</a>
+              <a class="nav-link pr-5 text-white" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -41,6 +41,7 @@
     </div>
   </header>
 
+  <!-- home section -->
   <section id="home" class="h-100 container-fluid row ">
     <div class=" home col-12">
 
@@ -51,7 +52,9 @@
       </div>
     </div>
   </section>
+  <!-- home section end -->
 
+  <!-- about section -->
   <section id="about">
     <div class="container bg-light">
       <h3 class="section-heading">About</h3>
@@ -72,14 +75,13 @@
           <p class="contact-details">&nbsp;Kozhikode, India</p>
           <div class="social-media">
             <a href="https://www.linkedin.com/in/amjedsaleelk"><i class="fab fa-linkedin-in fa-2x linkedin"></i></a>
-            <a href="https://github.com/amjedsaleel"><i class="fab fa-github fa-2x github"></i></a>
-            
+            <a href="https://github.com/amjedsaleel"><i class="fab fa-github fa-2x github"></i></a>            
           </div>
         </div>
       </div>
     </div>
   </section>
-    
+  <!-- about section end   -->
   
   <!-- timeline section  -->
     <section id="time-line ppp">
@@ -230,17 +232,17 @@
     <h3 class="section-heading">Contact</h3>
     <div class="row d-flex justify-content-center pt-4">
       <div class="col-12 col-sm-6 col-md-6">
-        <form>
+        <form method="POST" name="submit-to-google-sheet">
           <div class="form-group">
             <label for="formGroupExampleInput">Name</label>
-            <input type="text" class="form-control" id="form-group-name" placeholder="Enter your name...">
+            <input type="text" name="name"class="form-control" id="form-group-name" placeholder="Enter your name..." required>
           </div>
           <div class="form-group mt-4">
             <label for="formGroupExampleInput2">Email</label>
-            <input type="email" class="form-control" id="form-group-email" placeholder="Enter your email...">
+            <input type="email" name="email" class="form-control" id="form-group-email" placeholder="Enter your email..." required>
           </div>         
           <label for="inputAddress mt-4">Message</label>
-          <textarea class="form-control" cols="30" rows="5" placeholder="Type your message  here..."></textarea>
+          <textarea class="form-control" name="message" cols="30" rows="5" placeholder="Type your message  here..." required></textarea>
           <div class="form-group  text-center">
             <button type="submit" class="btn mt-4 mb-3 w-50 submit-btn">Submit</button>
           </div>
@@ -258,7 +260,10 @@
     <h6><span>&copy;</span> 2020 Amjed Saleel K</6> 
  </div>
 </footer>
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+<!-- <script src="https://wzrd.in/standalone/formdata-polyfill"></script>
+<script src="https://wzrd.in/standalone/promise-polyfill@latest"></script>
+<script src="https://wzrd.in/standalone/whatwg-fetch@latest"></script> -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
     crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
